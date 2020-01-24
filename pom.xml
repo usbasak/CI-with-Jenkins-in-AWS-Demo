@@ -19,7 +19,14 @@
             <id>Demo</id>
             <name>Internal Releases</name>
             <url>http://34.93.204.239:8081/repository/Demo/</url>
+            <layout>default</layout>
         </repository>
+            <snapshotRepository>
+        <id>my-snapshots</id>
+        <name>my-snapshots</name>
+        <url>http://34.93.204.239:8081/repository/Demo/</url>
+        <layout>default</layout>
+    </snapshotRepository>
     </distributionManagement>
    <dependencies>
         <dependency>
